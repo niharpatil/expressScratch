@@ -1,0 +1,25 @@
+- Review express
+    - Request/response cycle
+    - Setup
+    - Routes
+        - path, query, params
+        - callbacks (with req and res)
+    - Request object
+        - query, params
+    - Response object
+        - send
+        - json
+        - end
+    - Middleware
+        - use --> 'req.body', other validation
+        - next
+   
+- HTTP Node Module
+
+- Hexpress
+    - Purpose
+    - Requiring http
+    - Creating a server instance / listening on port
+    - req.url, req.method
+    - res.writeHead, res.end
+    - Setting up for requests
