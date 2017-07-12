@@ -9,6 +9,8 @@ module.exports = function(){
 
         //response.writeHead(statusCode, [headerObj])
         //response.end([body])
+        
+        //following two functions will immediately send a response back to any request with a status code of 200
         response.writeHead(200, {'Content-Type':'application/json'})
         response.end(JSON.stringify({key:'value'}))
       })
